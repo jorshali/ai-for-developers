@@ -7,6 +7,8 @@ import { ChatOpenAI } from "@langchain/openai";
 const chatModel = new ChatOpenAI({});
 
 app.get('/', async (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
   const response = 
     await chatModel.invoke(
       "Can you simply say 'test'?");
