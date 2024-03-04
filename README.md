@@ -82,8 +82,9 @@ The following steps will guide you through getting part 1 up and running on your
 
 The project contains folders with examples to support the "AI for developers, not data scientists" series.  Each folder contains the example for that part in the series.
 
-- `part1`: How to Build a REST Service that calls GPT
-- `part2`: Use JavaScript to stream LLM responses from a REST service
+- [part1](part1): How to Build a REST Service that calls GPT
+- [part2](part2): Use JavaScript to stream LLM responses from a REST service
+- [part3](part3): How to setup a Vector Search with your data using JavaScript
 
 For each part you'll find the following documentation:
 
