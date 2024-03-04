@@ -1,4 +1,4 @@
-# AI for developers, not data scientists
+# AI for Developers
 
 Finally, a tutorial series that makes AI approachable for developers.  With 10 minutes and basic JavaScript knowledge, you can build your first REST service that calls GPT.  From there, you can follow this tutorial series to dive deeper into what's possible with AI.
 
