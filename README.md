@@ -1,4 +1,5 @@
-# Busy JavaScript Developers Guide to Generative AI with LangChain.js
+# The Busy Developers Guide to Generative AI
+### JavaScript tutorials with LangChain.js, Node.js, and Express
 
 [Download the Book](busy_developers_guide_to_genai.pdf)
 
