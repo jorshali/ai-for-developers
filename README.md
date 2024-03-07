@@ -1,4 +1,4 @@
-# The Busy Developers Guide to Generative AI
+# Busy JavaScript Developers Guide to Generative AI with LangChain.js
 
 [Download the Book](busy_developers_guide_to_genai.pdf)
 
