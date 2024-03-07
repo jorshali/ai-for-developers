@@ -1,4 +1,4 @@
-# The Busy Developers Guide to GEN AI
+# The Busy Developers Guide to Generative AI
 
 [Download the Book](busy_developers_guide_to_genai.pdf)
 
