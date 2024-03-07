@@ -1,6 +1,6 @@
-# AI for developers, not data scientists - part 2
+# The Busy Developers Guide to GEN AI - part 2
 
-## Use JavaScript to stream LLM responses from a REST service
+## Stream your LLM Responses
 
 The cool typing effect you see in ChatGPT makes it feel responsive.
 
@@ -15,10 +15,6 @@ Similar to an infinite scroll, streaming makes LLMs feel infinitely faster to yo
 With Express and LangChain it's extremely simple to stream an LLM response from your own REST API.  This tutorial shows you how.
 
 You can access the entire source along with a working UI in the GitHub repository linked in the comments.
-
-## Tutorial
-
-[Use JavaScript to stream LLM responses from a REST service](tutorial.pdf)
 
 ## Quick Start
 
@@ -46,13 +42,13 @@ The following steps will get you up and running on your machine.
 - Navigate to the project `part2/server` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part1/server % npm install
+~/ai-for-developers/part2/server % npm install
 ```
 
 - Navigate to the project `part2/client` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part1/client % npm install
+~/ai-for-developers/part2/client % npm install
 ```
 
 4.  Create an OpenAI account:

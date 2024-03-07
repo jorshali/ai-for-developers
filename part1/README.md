@@ -1,6 +1,6 @@
-# AI for developers, not data scientists - part 1
+# The Busy Developers Guide to GEN AI - part 1
 
-## How to Build a REST Service that calls GPT
+## Build a REST Service that calls an LLM
 
 Here's how you can start your AI learning journey.
 
@@ -14,10 +14,6 @@ With 10 minutes and basic JavaScript knowledge, you can build a REST service tha
 - Rendering that response to your browser
 
 It doesn't get any easier to begin your AI learning journey.
-
-## Tutorial
-
-[How to Build a REST Service that calls GPT](tutorial.pdf)
 
 ## Quick Start
 

@@ -1,24 +1,16 @@
-# AI for Developers
+# The Busy Developers Guide to GEN AI
 
-Finally, a tutorial series that makes AI approachable for developers.  With 10 minutes and basic JavaScript knowledge, you can build your first REST service that calls GPT.  From there, you can follow this tutorial series to dive deeper into what's possible with AI.
+[Download the Book](busy_developers_guide_to_genai.pdf)
 
-You can follow me on LinkedIn to see new posts on Tuesday's and Thursday's:
+Finally, a book that makes AI approachable for developers.  This book is here to jumpstart your AI learning journey.  You won’t need to dust off your Python spellbook, train neural networks, or get a PhD in statistics.  All you need is some basic JavaScript knowledge and a willingness to learn.
+
+We’ll skip all the data science wizardry by using pre-trained generative AI models (specifically LLMs).  APIs and SDKs have made these models accessible to developers in the languages they’re already building applications with.
+
+This book will guide you through combining your own data with the power of LLMs using a technique called RAG (Retrieval Augmented Generation). During this journey, you'll learn important concepts while gaining practical experience with some key JavaScript libraries: [Node.js](https://nodejs.org/docs/latest/api/), [Express](https://expressjs.com/en/4x/api.html), and [LangChain.js](https://js.langchain.com/docs/get_started/introduction).
+
+You can follow me on LinkedIn for more:
 
 [Jacob Orshalick | LinkedIn](https://linkedin.com/in/jorshalick)
-
-Every new post will include the example code here.
-
-## Introduction
-
-I admit it. Learning AI was intimidating.  I thought it made the most sense to start with training neural networks. You have to know the basics, right?
-
-There was nothing basic about it. It felt more like a statistics course than programming. And I hated college statistics.  I accepted my fate that the AI overlords would eventually replace me...
-
-Then pre-trained LLMs came along. Suddenly it felt like the world of AI opened up to developers. I saw REST APIs and SDKs. I wasn't constrained to pandas and Python.
-
-It gave me a starting point that felt familiar.  That's why I'm starting a series on AI for developers, not data scientists. All you have to know is JavaScript and even that could be learned along the way.
-
-It will open up a world of possibilities you didn't even know were there. And maybe you'll be like me and dive deeper to see what you can really build with this stuff.
 
 ## Quick Start
 
@@ -80,13 +72,11 @@ The following steps will guide you through getting part 1 up and running on your
 
 ## Project Structure
 
-The project contains folders with examples to support the "AI for developers, not data scientists" series.  Each folder contains the example for that part in the series.
+The project contains folders with examples to support the "The Busy Developers Guide to GEN AI" e-book.  Each folder contains the example for that part in the series.
 
-- [part1](part1): How to Build a REST Service that calls GPT
-- [part2](part2): Use JavaScript to stream LLM responses from a REST service
-- [part3](part3): How to setup a Vector Search with your data using JavaScript
+- [part1](part1): Build a REST Service that calls an LLM
+- [part2](part2): Stream your LLM Responses
+- [part3](part3): Create a Vector Search with custom data
+- [part4](part4): Supercharge your data with RAG
 
-For each part you'll find the following documentation:
-
-- `README.md`: provides a summary and the instructions to get the example up and running
-- `tutorial.pdf`: provides the tutorial walk through along with concepts 
+For each part you'll find a `README.md` with instructions to get the example up and running.

@@ -1,16 +1,16 @@
 import { DirectoryLoader } from 
-  "langchain/document_loaders/fs/directory";
+  'langchain/document_loaders/fs/directory';
 import { TextLoader } from 
-  "langchain/document_loaders/fs/text";
+  'langchain/document_loaders/fs/text';
 import { HNSWLib } from 
-  "@langchain/community/vectorstores/hnswlib";
+  '@langchain/community/vectorstores/hnswlib';
 import { OpenAIEmbeddings } from 
-  "@langchain/openai";
+  '@langchain/openai';
 
 const loader = new DirectoryLoader(
-  "companies",
+  'companies',
   {
-    ".txt": (path) => new TextLoader(path)
+    '.txt': (path) => new TextLoader(path)
   }
 );
 

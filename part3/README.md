@@ -1,6 +1,6 @@
-# AI for developers, not data scientists - part 3
+# The Busy Developers Guide to GEN AI - part 3
 
-## How to setup a Vector Search with your data using JavaScript
+## Create a Vector Search with custom data
 
 Most LLM-powered applications use RAG in some way.
 
@@ -15,10 +15,6 @@ Remember, we're limited on the amount of data we can send to the LLM:
 We need an efficient way to find only relevant data.
 
 Vector search is a great choice.  We prompt LLMs with natural language and a vector search allows you to find relevant data based on the meaning of what's being asked.
-
-## Tutorial
-
-[How to setup a Vector Search with your data using JavaScript](tutorial.pdf)
 
 ## Quick Start
 
@@ -72,8 +68,8 @@ The following steps will get you up and running on your machine.
 - Back in the terminal, run the following commands:
 
 ```
-~/ai-for-developers/node % node loadData.mjs
-~/ai-for-developers/node % node server.mjs
+~/ai-for-developers/part3/server % node loadData.mjs
+~/ai-for-developers/part3/server % node server.mjs
 ```
 
 - Open your web browser and visit: http://localhost:3000
