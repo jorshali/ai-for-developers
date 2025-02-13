@@ -1,4 +1,4 @@
-# The Developers Guide to AI
+# The Developer's Guide to AI: From Prompts to Agents
 
 ## Getting Started - Part 1: Calling a local LLM
 

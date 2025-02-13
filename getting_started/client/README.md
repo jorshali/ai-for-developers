@@ -1,4 +1,4 @@
-# The Deveoper's Guide to AI
+# The Developer's Guide to AI: From Prompts to Agents
 
 ## Getting Started Client
 
