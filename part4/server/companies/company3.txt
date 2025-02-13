@@ -1,9 +1,0 @@
-Welcome to FixMyBudget, where we turn financial chaos into budgeting bliss! At FixMyBudget, we understand that managing personal finances can be like navigating a maze. That's why we've crafted a revolutionary budgeting software designed to empower individuals on their journey towards financial freedom.
-
-Our cutting-edge software is the compass you need to navigate through the intricacies of budgeting effortlessly. Picture a world where financial stress is a thing of the past, and every dollar is a well-behaved soldier marching in line with your financial goals. FixMyBudget is here to make that vision a reality.
-
-With features ranging from personalized budget templates to a virtual "Finance Whisperer" that guides you through financial decisions, our software is your dedicated partner in taking control of your money. We believe that financial freedom is not a luxury; it's a necessity, and FixMyBudget is the key that unlocks the door to your economic independence.
-
-Join the FixMyBudget community and let us be your financial ally. Because when it comes to budgeting software for individuals, FixMyBudget isn't just a tool – it's the guiding light that leads you towards a future where financial worries are a thing of the past!
-
-FixMyBudget builds software with C#, Azure Functions, SQL Server, Cosmos DB, and Angular.
