@@ -26,8 +26,8 @@ Most developers are familiar with JavaScript.  This chapter shows how quickly yo
 
 Example code:
 
-- [getting_started/part1](part1): Build a REST Service that calls a local LLM
-- [getting_started/part2](part2): Stream your LLM Responses
-- [getting_started/part3](part3): RAG solution with a Vector Store and local LLM
+- [getting_started/part1](getting_started/part1): Build a REST Service that calls a local LLM
+- [getting_started/part2](getting_started/part2): Stream your LLM Responses
+- [getting_started/part3](getting_started/part3): RAG solution with a Vector Store and local LLM
 
 For each part you'll find a `README.md` with instructions to get the example up and running.
