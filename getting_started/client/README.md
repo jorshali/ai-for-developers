@@ -1,8 +1,15 @@
-# React + Vite
+# The Deveoper's Guide to AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started Client
 
-Currently, two official plugins are available:
+This is the client for the Getting Started section.  Before starting the client, make sure you start one of the servers found in part2 and part3.  You can start the client with the following:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.  Launch the client
+
+- In a terminal, navigate to the `getting_started/client` directory and run the following commands:
+
+```
+~/ai-for-developers/client % npm run dev
+```
+
+2. Open your web browser and visit: http://localhost:5173

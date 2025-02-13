@@ -1,15 +1,65 @@
-# The Deveoper's Guide to AI
+# The Developers Guide to AI
 
-## Getting Started Client
+## Getting Started - Part 1: Calling a local LLM
 
-This is the client for the Getting Started section.  Before starting the client, make sure you start one of the servers found in part2 and part3.  You can start the client with the following:
+Here's how you can start your AI learning journey.
 
-1.  Launch the client
+With 10 minutes and basic JavaScript knowledge, you can build a REST service that calls GPT.
 
-- In a terminal, navigate to the `getting_started/client` directory and run the following commands:
+5 quick steps will have you:
+
+- Starting a REST service with Express and Node.js
+- Using LangChain to connect to Ollama APIs
+- Generating a response from a GPT model
+- Rendering that response to your browser
+
+It doesn't get any easier to begin your AI learning journey.
+
+## Quick Start
+
+The following steps will get you up and running on your machine.
+
+0. Install Ollama and run:
+
+- Download and install: https://ollama.com
+- Verify the install and start Llama in a terminal window:
 
 ```
-~/ai-for-developers/client % npm run dev
+~ % ollama run llama3.2
 ```
 
-2. Open your web browser and visit: http://localhost:5173
+1. Clone this project into a local directory:
+
+```
+~ % git clone <url>
+```
+
+2. Install Node
+
+- Download and install: https://nodejs.org
+- Verify the install in your terminal:
+
+```
+~ % node -v
+```
+
+- If the installation succeeded, the version will print
+
+3. Install node modules
+
+- Navigate to the project `part1` directory in your terminal and run:
+
+```
+~/ai-for-developers/part1 % npm install
+```
+
+4.  Launch the server
+
+- Back in the terminal, run the following command:
+
+```
+~/ai-for-developers/part1 % node server.mjs
+```
+
+- Open your web browser and visit: http://localhost:3000
+- You’ll see the response from the Llama model:  test

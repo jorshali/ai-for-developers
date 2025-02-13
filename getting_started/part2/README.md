@@ -1,6 +1,6 @@
 # The Deveoper's Guide to AI
 
-## Stream your LLM Responses
+## Getting Started - Part 2: Stream your LLM Responses
 
 The cool typing effect you see in ChatGPT makes it feel responsive.
 

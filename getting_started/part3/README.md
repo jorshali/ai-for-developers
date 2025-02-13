@@ -1,6 +1,6 @@
 # The Deveoper's Guide to AI
 
-## Create a Vector Search with custom data
+## Getting Started - Part 3: Create a RAG solution
 
 Most LLM-powered applications use RAG in some way.
 
