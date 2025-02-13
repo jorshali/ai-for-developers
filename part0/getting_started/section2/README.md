@@ -1,6 +1,6 @@
-# The Developer's Guide to AI: From Prompts to Agents
+# The Developer's Guide to AI - From Prompts to Agents
 
-## Getting Started - Part 2: Stream your LLM Responses
+## Getting Started - Section 2: Stream your LLM Responses
 
 The cool typing effect you see in ChatGPT makes it feel responsive.
 
@@ -48,32 +48,32 @@ The following steps will get you up and running on your machine.
 
 3. Install node modules
 
-- Navigate to the project `part2` directory in your terminal and run:
+- Navigate to the project `part0/getting_started/section2` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part2 % npm install
+~/ai-for-developers/part0/getting_started/section2 % npm install
 ```
 
-- Navigate to the project `getting_started/client` directory in your terminal and run:
+- Navigate to the project `part0/getting_started/client` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part2/client % npm install
+~/ai-for-developers/part0/client % npm install
 ```
 
 4.  Launch the server
 
-- In a terminal, navigate to the `getting_started/part2` directory and run the following command:
+- In a terminal, navigate to the `part0/getting_started/section2` directory and run the following command:
 
 ```
-~/ai-for-developers/part2 % node server.mjs
+~/ai-for-developers/part0/getting_started/section2 % node server.mjs
 ```
 
 5.  Launch the client
 
-- In a terminal, navigate to the `getting_started/client` directory and run the following commands:
+- In a separate terminal, navigate to the `part0/client` directory and run the following commands:
 
 ```
-~/ai-for-developers/client % npm run dev
+~/ai-for-developers/part0/client % npm run dev
 ```
 
 6. Open your web browser and visit: http://localhost:5173

@@ -1,6 +1,6 @@
-# The Developer's Guide to AI: From Prompts to Agents
+# The Developer's Guide to AI - From Prompts to Agents
 
-## Getting Started - Part 1: Calling a local LLM
+## Getting Started - Section 1: Calling an LLM using an API
 
 Here's how you can start your AI learning journey.
 
@@ -47,10 +47,10 @@ The following steps will get you up and running on your machine.
 
 3. Install node modules
 
-- Navigate to the project `part1` directory in your terminal and run:
+- Navigate to the project `part0/getting_started/section1` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part1 % npm install
+~/ai-for-developers/part0/getting_started/section1 % npm install
 ```
 
 4.  Launch the server
@@ -58,7 +58,7 @@ The following steps will get you up and running on your machine.
 - Back in the terminal, run the following command:
 
 ```
-~/ai-for-developers/part1 % node server.mjs
+~/ai-for-developers/part0/getting_started/section1 % node server.mjs
 ```
 
 - Open your web browser and visit: http://localhost:3000
