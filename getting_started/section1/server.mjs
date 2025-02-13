@@ -6,13 +6,13 @@ const app = express();
 
 app.use(cors());
 
-const chatModel = new ChatOllama({
+const model = new ChatOllama({
   model: 'llama3.2'
 });
 
 app.get('/', async (req, res) => {
   const response = 
-    await chatModel.invoke(
+    await model.invoke(
       "Can you simply say 'test'?");
 
   res.send(response.content);
