@@ -19,11 +19,6 @@ import {
 
 import { StringOutputParser } from "@langchain/core/output_parsers";
 
-const embeddings = new OllamaEmbeddings({
-  model: "mxbai-embed-large",
-  baseUrl: "http://localhost:11434",
-});
-
 const loader = new DirectoryLoader(
   "articles",
   {
@@ -32,6 +27,11 @@ const loader = new DirectoryLoader(
 );
 
 const documentsForVectorStore = await loader.load();
+
+const embeddings = new OllamaEmbeddings({
+  model: "mxbai-embed-large",
+  baseUrl: "http://localhost:11434",
+});
 
 const vectorStore = new MemoryVectorStore(embeddings);
 const byteStore = new InMemoryStore();
@@ -42,9 +42,7 @@ const retriever = new ParentDocumentRetriever({
   childSplitter: new RecursiveCharacterTextSplitter({
     chunkOverlap: 0,
     chunkSize: 50,
-  }),
-  childK: 20,
-  parentK: 5,
+  })
 });
 
 console.log("\nCreating embeddings and loading Vectore Store, please be patient...")
@@ -62,15 +60,15 @@ const chatModel = new ChatOllama({
 });
 
 app.post("/", async (request, response) => {
-  const { query } = request.body;
+  const { question } = request.body;
 
-  console.log("\nReceived query: " + query);
+  console.log("\nReceived question: " + question);
 
   const prompt = ChatPromptTemplate.fromMessages([
     [
       "system",
       "Answer the question with company information based on only the following context:\n\n{context}"
-    ],,
+    ],
     ["user", "{question}"]
   ]);
 
@@ -95,7 +93,7 @@ app.post("/", async (request, response) => {
     .pipe(chatModel)
     .pipe(outputParser);
   
-  const stream = await chain.stream(query);
+  const stream = await chain.stream(question);
 
   console.log("\nLLM response started, generating response chunks...")
 

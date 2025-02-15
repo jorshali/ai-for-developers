@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import './App.css'
 
 function App() {
-  const [query, setQuery] = useState('');
+  const [question, setQuestion] = useState('');
   const [llmResponse, setLlmResponse] = useState('');
 
   let llmResponseProgress = '';
@@ -14,7 +14,7 @@ function App() {
   };
 
   const handleInputChange = (event) => {
-    setQuery(event.target.value);
+    setQuestion(event.target.value);
   };
 
   const fetchData = async () => {
@@ -28,7 +28,7 @@ function App() {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ query })
+      body: JSON.stringify({ question })
     });
 
     setLlmResponse('')
@@ -53,7 +53,7 @@ function App() {
       <h1>The Developer's Guide to AI</h1>
       <div className="card">
         <label>
-          <input name="query" type="textarea" value={query} onChange={handleInputChange} placeholder="Ask me something!" />
+          <input name="question" type="textarea" value={question} onChange={handleInputChange} placeholder="Ask me a question!" />
         </label>
 
         <button onClick={fetchData}>

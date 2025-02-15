@@ -13,9 +13,9 @@ const chatModel = new ChatOllama({
 });
 
 app.post('/', async (request, response) => {
-  const { query } = request.body;
+  const { question } = request.body;
 
-  const stream = await chatModel.stream(query);
+  const stream = await chatModel.stream(question);
 
   for await (const chunk of stream) {
     response.write(chunk.content);

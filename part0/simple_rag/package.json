@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@langchain/community": "^0.3.30",
     "@langchain/ollama": "^0.2.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
