@@ -10,7 +10,10 @@ function App() {
 
   const renderResponseChunk = (chunk) => {
     llmResponseProgress += chunk || '';
-    setLlmResponse(llmResponseProgress);
+    
+    if (llmResponseProgress) {
+      setLlmResponse(llmResponseProgress);
+    }
   };
 
   const handleInputChange = (event) => {
@@ -31,7 +34,7 @@ function App() {
       body: JSON.stringify({ question })
     });
 
-    setLlmResponse('')
+    llmResponseProgress = ''
 
     const reader = response.body
       .pipeThrough(new TextDecoderStream())

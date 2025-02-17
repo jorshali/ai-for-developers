@@ -2,7 +2,7 @@
 
 ## Python Primer
 
-Porting the Getting Started example to Python.
+Porting the Simple RAG example to Python.
 
 ## Quick Start
 
@@ -36,13 +36,13 @@ The following steps will get you up and running on your machine.
 
 3. Install Python modules
 
-- Navigate to the project `part0/getting_started_python` directory in your terminal and run:
+- Navigate to the project `part0/simple_rag_python` directory in your terminal and run:
 
 ```
-~/ai-for-developers/part0/getting_started_python % pip install -r requirements.txt
+~/ai-for-developers/part0/simple_rag_python % pip install -r requirements.txt
 ```
 
-- Navigate to the project `part0/getting_started/client` directory in your terminal and run:
+- Navigate to the project `part0/client` directory in your terminal and run:
 
 ```
 ~/ai-for-developers/part0/client % npm install
@@ -50,7 +50,7 @@ The following steps will get you up and running on your machine.
 
 4.  Launch the server
 
-- In a terminal, navigate to the `part0/getting_started_python` directory and run the following command:
+- In a terminal, navigate to the `part0/simple_rag_python` directory and run the following command:
 
 ```
 ~/ai-for-developers/part0/getting_started_python % fastapi dev main.py
