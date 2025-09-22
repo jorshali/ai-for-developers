@@ -8,7 +8,7 @@ You can access the new GitHub Repository here:
 
 [https://github.com/jorshali/developers-guide-to-ai](https://github.com/jorshali/developers-guide-to-ai)
 
-# The Developers Guide to AI - From Prompts to Agents (coming soon)
+# The Developers Guide to AI - From Prompts to Agents
 
 Finally, a book that makes AI approachable for developers.  This book is here to jumpstart your AI learning journey.  You won’t need to dust off your Python spellbook, train neural networks, or get a PhD in statistics.  All you need is some basic JavaScript knowledge and a willingness to learn.
 
