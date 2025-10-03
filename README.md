@@ -4,21 +4,9 @@
 
 [The Developer's Guide to AI: From Prompts to Agent (EARLY ACCESS)](https://nostarch.com/developers-guide-to-AI)
 
-You can access the new GitHub Repository here:
+This project is no longer being actively maintained.  You can access the new GitHub Repository with all book examples here:
 
 [https://github.com/jorshali/developers-guide-to-ai](https://github.com/jorshali/developers-guide-to-ai)
-
-# The Developers Guide to AI - From Prompts to Agents
-
-Finally, a book that makes AI approachable for developers.  This book is here to jumpstart your AI learning journey.  You won’t need to dust off your Python spellbook, train neural networks, or get a PhD in statistics.  All you need is some basic JavaScript knowledge and a willingness to learn.
-
-We’ll skip all the data science wizardry by using pretrained AI models (LLMs and more).  APIs and SDKs have made these models accessible to developers in the languages they’re already building applications with.
-
-This book will guide you through techniques to combine your own data with the power of LLMs. During this journey, you'll learn important concepts while gaining practical experience.
-
-You can follow me on LinkedIn for more:
-
-[Jacob Orshalick | LinkedIn](https://linkedin.com/in/jorshalick)
 
 ## Project Structure
 
